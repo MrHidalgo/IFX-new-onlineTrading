@@ -1205,4 +1205,88 @@ body #fp-nav.right {
   text-align: center;
 }
 
+/* line 3, src/scss/_components/_servers.scss */
+.ot-servers {
+  padding-top: 158px;
+  padding-bottom: 100px;
+}
+
+/* line 7, src/scss/_components/_servers.scss */
+.ot-servers .c-grid {
+  max-width: 1412px;
+}
+
+/* line 11, src/scss/_components/_servers.scss */
+.ot-servers__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 14, src/scss/_components/_servers.scss */
+.ot-servers__wrapper-left, .ot-servers__wrapper-right {
+  width: 50%;
+}
+
+/* line 19, src/scss/_components/_servers.scss */
+.ot-servers__wrapper-left {
+  padding-right: 15px;
+}
+
+/* line 24, src/scss/_components/_servers.scss */
+.ot-servers__title {
+  padding-bottom: 50px;
+  font-weight: bold;
+  font-size: 70px;
+  color: #1B2234;
+  letter-spacing: 0;
+  line-height: 1;
+}
+
+/* line 33, src/scss/_components/_servers.scss */
+.ot-servers__text {
+  font-family: 'SF Pro Text', sans-serif;
+  font-size: 18px;
+  color: #131324;
+  letter-spacing: 0;
+  line-height: 1.55556;
+}
+
+/* line 40, src/scss/_components/_servers.scss */
+.ot-servers__text--pb {
+  padding-bottom: 68px;
+}
+
+/* line 45, src/scss/_components/_servers.scss */
+.ot-servers__block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-width: 580px;
+  min-height: 220px;
+  padding: 70px;
+  background-color: #F30830;
+}
+
+/* line 55, src/scss/_components/_servers.scss */
+.ot-servers__block p {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 1;
+}
+
 /*# sourceMappingURL=maps/app.css.map */
