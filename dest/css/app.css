@@ -879,30 +879,52 @@ body #fp-nav.right {
   height: 100%;
 }
 
-/* line 17, src/scss/_components/_platforms.scss */
+@media screen and (max-width: 767px) {
+  /* line 8, src/scss/_components/_platforms.scss */
+  .ot-platforms-bg {
+    position: static;
+  }
+}
+
+/* line 20, src/scss/_components/_platforms.scss */
 .ot-platforms-bg-left {
   width: 58%;
   padding-top: 290px;
 }
 
-/* line 21, src/scss/_components/_platforms.scss */
+@media screen and (max-width: 767px) {
+  /* line 20, src/scss/_components/_platforms.scss */
+  .ot-platforms-bg-left {
+    width: 100%;
+    padding-top: 0;
+  }
+}
+
+/* line 28, src/scss/_components/_platforms.scss */
 .ot-platforms-bg-left img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 28, src/scss/_components/_platforms.scss */
+/* line 35, src/scss/_components/_platforms.scss */
 .ot-platforms-bg-right {
   width: 42%;
 }
 
-/* line 33, src/scss/_components/_platforms.scss */
+@media screen and (max-width: 767px) {
+  /* line 35, src/scss/_components/_platforms.scss */
+  .ot-platforms-bg-right {
+    display: none;
+  }
+}
+
+/* line 43, src/scss/_components/_platforms.scss */
 .ot-platforms .c-grid {
   max-width: 1412px;
 }
 
-/* line 37, src/scss/_components/_platforms.scss */
+/* line 47, src/scss/_components/_platforms.scss */
 .ot-platforms__wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -910,66 +932,164 @@ body #fp-nav.right {
   display: flex;
 }
 
-/* line 40, src/scss/_components/_platforms.scss */
+@media screen and (max-width: 767px) {
+  /* line 47, src/scss/_components/_platforms.scss */
+  .ot-platforms__wrapper {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+
+/* line 53, src/scss/_components/_platforms.scss */
 .ot-platforms__wrapper-left {
   width: 58%;
 }
 
-/* line 44, src/scss/_components/_platforms.scss */
+@media screen and (max-width: 767px) {
+  /* line 53, src/scss/_components/_platforms.scss */
+  .ot-platforms__wrapper-left {
+    display: none;
+  }
+}
+
+/* line 60, src/scss/_components/_platforms.scss */
 .ot-platforms__wrapper-right {
   width: 42%;
 }
 
-/* line 49, src/scss/_components/_platforms.scss */
+@media screen and (max-width: 767px) {
+  /* line 60, src/scss/_components/_platforms.scss */
+  .ot-platforms__wrapper-right {
+    width: 100%;
+  }
+}
+
+/* line 68, src/scss/_components/_platforms.scss */
 .ot-platforms__title {
-  padding-bottom: 98px;
   font-weight: bold;
-  font-size: 60px;
   color: #131324;
   letter-spacing: 0;
   line-height: 1.03333;
   text-align: center;
+  padding-bottom: 45px;
+  font-size: 38px;
 }
 
-/* line 59, src/scss/_components/_platforms.scss */
+@media screen and (min-width: 320px) {
+  /* line 68, src/scss/_components/_platforms.scss */
+  .ot-platforms__title {
+    padding-bottom: -webkit-calc(45px + 53 * (100vw - 320px) / 880);
+    padding-bottom: calc(45px + 53 * (100vw - 320px) / 880);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 68, src/scss/_components/_platforms.scss */
+  .ot-platforms__title {
+    padding-bottom: 98px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  /* line 68, src/scss/_components/_platforms.scss */
+  .ot-platforms__title {
+    font-size: -webkit-calc(38px + 22 * (100vw - 320px) / 1046);
+    font-size: calc(38px + 22 * (100vw - 320px) / 1046);
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 68, src/scss/_components/_platforms.scss */
+  .ot-platforms__title {
+    font-size: 60px;
+  }
+}
+
+/* line 80, src/scss/_components/_platforms.scss */
 .ot-platforms__subtitle {
   padding-bottom: 20px;
   font-weight: bold;
-  font-size: 44px;
   color: #131324;
   letter-spacing: 0;
+  font-size: 32px;
 }
 
-/* line 67, src/scss/_components/_platforms.scss */
+@media screen and (min-width: 320px) {
+  /* line 80, src/scss/_components/_platforms.scss */
+  .ot-platforms__subtitle {
+    font-size: -webkit-calc(32px + 12 * (100vw - 320px) / 1046);
+    font-size: calc(32px + 12 * (100vw - 320px) / 1046);
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 80, src/scss/_components/_platforms.scss */
+  .ot-platforms__subtitle {
+    font-size: 44px;
+  }
+}
+
+/* line 89, src/scss/_components/_platforms.scss */
 .ot-platforms__info {
   padding-bottom: 40px;
   font-weight: 500;
-  font-size: 32px;
   color: #F40830;
   letter-spacing: 0;
   line-height: 1.5;
+  font-size: 26px;
 }
 
-/* line 76, src/scss/_components/_platforms.scss */
+@media screen and (min-width: 320px) {
+  /* line 89, src/scss/_components/_platforms.scss */
+  .ot-platforms__info {
+    font-size: -webkit-calc(26px + 6 * (100vw - 320px) / 1046);
+    font-size: calc(26px + 6 * (100vw - 320px) / 1046);
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 89, src/scss/_components/_platforms.scss */
+  .ot-platforms__info {
+    font-size: 32px;
+  }
+}
+
+/* line 99, src/scss/_components/_platforms.scss */
 .ot-platforms__text {
   font-family: 'SF Pro Text', sans-serif;
-  font-size: 18px;
   color: #131324;
   letter-spacing: 0;
   line-height: 28px;
+  font-size: 14px;
 }
 
-/* line 83, src/scss/_components/_platforms.scss */
+@media screen and (min-width: 320px) {
+  /* line 99, src/scss/_components/_platforms.scss */
+  .ot-platforms__text {
+    font-size: -webkit-calc(14px + 4 * (100vw - 320px) / 672);
+    font-size: calc(14px + 4 * (100vw - 320px) / 672);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* line 99, src/scss/_components/_platforms.scss */
+  .ot-platforms__text {
+    font-size: 18px;
+  }
+}
+
+/* line 107, src/scss/_components/_platforms.scss */
 .ot-platforms__text--pb {
   padding-bottom: 30px;
 }
 
-/* line 87, src/scss/_components/_platforms.scss */
+/* line 111, src/scss/_components/_platforms.scss */
 .ot-platforms__text--mb {
   padding-bottom: 54px;
 }
 
-/* line 92, src/scss/_components/_platforms.scss */
+/* line 116, src/scss/_components/_platforms.scss */
 .ot-platforms__btn {
   display: -webkit-box;
   display: -webkit-flex;
@@ -984,19 +1104,26 @@ body #fp-nav.right {
   border: 1px solid #E6E6E6;
 }
 
-/* line 101, src/scss/_components/_platforms.scss */
+/* line 125, src/scss/_components/_platforms.scss */
 .ot-platforms__btn--half {
   max-width: -webkit-calc((100% - 20px) / 2);
   max-width: calc((100% - 20px) / 2);
 }
 
-/* line 105, src/scss/_components/_platforms.scss */
+@media screen and (max-width: 991px) {
+  /* line 125, src/scss/_components/_platforms.scss */
+  .ot-platforms__btn--half {
+    max-width: 100%;
+  }
+}
+
+/* line 132, src/scss/_components/_platforms.scss */
 .ot-platforms__btn--full {
   max-width: 100%;
   margin-bottom: 0;
 }
 
-/* line 109, src/scss/_components/_platforms.scss */
+/* line 136, src/scss/_components/_platforms.scss */
 .ot-platforms__btn--full .ot-platforms__btn-right {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1018,23 +1145,23 @@ body #fp-nav.right {
   padding-right: 20px;
 }
 
-/* line 118, src/scss/_components/_platforms.scss */
+/* line 145, src/scss/_components/_platforms.scss */
 .ot-platforms__btn--black {
   background-color: #000;
 }
 
-/* line 122, src/scss/_components/_platforms.scss */
+/* line 149, src/scss/_components/_platforms.scss */
 .ot-platforms__btn--black .ot-platforms__btn-right span {
   opacity: 0.5;
   color: #FFFFFF;
 }
 
-/* line 127, src/scss/_components/_platforms.scss */
+/* line 154, src/scss/_components/_platforms.scss */
 .ot-platforms__btn--black .ot-platforms__btn-right p {
   color: #fff;
 }
 
-/* line 133, src/scss/_components/_platforms.scss */
+/* line 160, src/scss/_components/_platforms.scss */
 .ot-platforms__btn-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1049,7 +1176,7 @@ body #fp-nav.right {
           justify-content: space-between;
 }
 
-/* line 139, src/scss/_components/_platforms.scss */
+/* line 166, src/scss/_components/_platforms.scss */
 .ot-platforms__btn-left {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1067,7 +1194,7 @@ body #fp-nav.right {
   border-right: 1px solid #E6E6E6;
 }
 
-/* line 147, src/scss/_components/_platforms.scss */
+/* line 174, src/scss/_components/_platforms.scss */
 .ot-platforms__btn-right {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1088,7 +1215,7 @@ body #fp-nav.right {
   padding-left: 15px;
 }
 
-/* line 155, src/scss/_components/_platforms.scss */
+/* line 182, src/scss/_components/_platforms.scss */
 .ot-platforms__btn-right span {
   opacity: 0.5;
   font-family: "SF Pro Text", sans-serif;
@@ -1098,7 +1225,7 @@ body #fp-nav.right {
   letter-spacing: 0;
 }
 
-/* line 164, src/scss/_components/_platforms.scss */
+/* line 191, src/scss/_components/_platforms.scss */
 .ot-platforms__btn-right p {
   font-family: "SF Pro Text", sans-serif;
   font-weight: 600;
