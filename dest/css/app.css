@@ -94,12 +94,42 @@ body #fp-nav.right {
 
 /* line 13, src/scss/_components/_main.scss */
 .ot-main__wrapper-0 {
-  padding-top: 201px;
+  padding-top: 100px;
+}
+
+@media screen and (min-width: 320px) {
+  /* line 13, src/scss/_components/_main.scss */
+  .ot-main__wrapper-0 {
+    padding-top: -webkit-calc(100px + 101 * (100vw - 320px) / 1046);
+    padding-top: calc(100px + 101 * (100vw - 320px) / 1046);
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 13, src/scss/_components/_main.scss */
+  .ot-main__wrapper-0 {
+    padding-top: 201px;
+  }
 }
 
 /* line 17, src/scss/_components/_main.scss */
 .ot-main__wrapper-2 {
-  padding-bottom: 120px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 320px) {
+  /* line 17, src/scss/_components/_main.scss */
+  .ot-main__wrapper-2 {
+    padding-bottom: -webkit-calc(60px + 60 * (100vw - 320px) / 672);
+    padding-bottom: calc(60px + 60 * (100vw - 320px) / 672);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* line 17, src/scss/_components/_main.scss */
+  .ot-main__wrapper-2 {
+    padding-bottom: 120px;
+  }
 }
 
 /* line 23, src/scss/_components/_main.scss */
@@ -108,25 +138,67 @@ body #fp-nav.right {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-bottom: 94px;
+  padding-bottom: 45px;
 }
 
-/* line 27, src/scss/_components/_main.scss */
+@media screen and (min-width: 320px) {
+  /* line 23, src/scss/_components/_main.scss */
+  .ot-main__row-0 {
+    padding-bottom: -webkit-calc(45px + 49 * (100vw - 320px) / 1046);
+    padding-bottom: calc(45px + 49 * (100vw - 320px) / 1046);
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 23, src/scss/_components/_main.scss */
+  .ot-main__row-0 {
+    padding-bottom: 94px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 23, src/scss/_components/_main.scss */
+  .ot-main__row-0 {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+
+/* line 30, src/scss/_components/_main.scss */
 .ot-main__row-0 .ot-main__col {
   width: 50%;
 }
 
-/* line 30, src/scss/_components/_main.scss */
-.ot-main__row-0 .ot-main__col:nth-of-type(1) {
-  padding-right: 20px;
+@media screen and (max-width: 767px) {
+  /* line 30, src/scss/_components/_main.scss */
+  .ot-main__row-0 .ot-main__col {
+    width: 100%;
+  }
 }
 
-/* line 33, src/scss/_components/_main.scss */
-.ot-main__row-0 .ot-main__col:nth-of-type(2) {
-  padding-left: 20px;
+@media screen and (min-width: 768px) {
+  /* line 36, src/scss/_components/_main.scss */
+  .ot-main__row-0 .ot-main__col:nth-of-type(1) {
+    padding-right: 20px;
+  }
 }
 
-/* line 40, src/scss/_components/_main.scss */
+@media screen and (max-width: 767px) {
+  /* line 36, src/scss/_components/_main.scss */
+  .ot-main__row-0 .ot-main__col:nth-of-type(1) {
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* line 44, src/scss/_components/_main.scss */
+  .ot-main__row-0 .ot-main__col:nth-of-type(2) {
+    padding-left: 20px;
+  }
+}
+
+/* line 53, src/scss/_components/_main.scss */
 .ot-main__bg {
   z-index: -1;
   position: absolute;
@@ -135,7 +207,7 @@ body #fp-nav.right {
   width: 100%;
 }
 
-/* line 47, src/scss/_components/_main.scss */
+/* line 60, src/scss/_components/_main.scss */
 .ot-main__bg-0 {
   height: -webkit-calc(100% + 340px);
   height: calc(100% + 340px);
@@ -145,43 +217,88 @@ body #fp-nav.right {
   background-position: top right;
 }
 
-/* line 55, src/scss/_components/_main.scss */
+/* line 68, src/scss/_components/_main.scss */
 .ot-main__bg-1, .ot-main__bg-2 {
   background-color: #17171F;
 }
 
-/* line 60, src/scss/_components/_main.scss */
+/* line 73, src/scss/_components/_main.scss */
 .ot-main__bg-1 {
   top: 340px;
   height: -webkit-calc(100% - 340px);
   height: calc(100% - 340px);
 }
 
-/* line 65, src/scss/_components/_main.scss */
+/* line 78, src/scss/_components/_main.scss */
 .ot-main__bg-2 {
   height: 100%;
 }
 
-/* line 70, src/scss/_components/_main.scss */
+/* line 83, src/scss/_components/_main.scss */
 .ot-main__title {
-  padding-bottom: 105px;
   font-weight: bold;
-  font-size: 120px;
   color: #000000;
   letter-spacing: 0;
   line-height: 1.28333;
+  padding-bottom: 55px;
+  font-size: 50px;
 }
 
-/* line 79, src/scss/_components/_main.scss */
+@media screen and (min-width: 320px) {
+  /* line 83, src/scss/_components/_main.scss */
+  .ot-main__title {
+    padding-bottom: -webkit-calc(55px + 50 * (100vw - 320px) / 1280);
+    padding-bottom: calc(55px + 50 * (100vw - 320px) / 1280);
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  /* line 83, src/scss/_components/_main.scss */
+  .ot-main__title {
+    padding-bottom: 105px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  /* line 83, src/scss/_components/_main.scss */
+  .ot-main__title {
+    font-size: -webkit-calc(50px + 70 * (100vw - 320px) / 1280);
+    font-size: calc(50px + 70 * (100vw - 320px) / 1280);
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  /* line 83, src/scss/_components/_main.scss */
+  .ot-main__title {
+    font-size: 120px;
+  }
+}
+
+/* line 92, src/scss/_components/_main.scss */
 .ot-main__desc {
   font-weight: 500;
-  font-size: 32px;
   color: #000000;
   letter-spacing: 0;
   line-height: 1.5;
+  font-size: 22px;
 }
 
-/* line 87, src/scss/_components/_main.scss */
+@media screen and (min-width: 320px) {
+  /* line 92, src/scss/_components/_main.scss */
+  .ot-main__desc {
+    font-size: -webkit-calc(22px + 10 * (100vw - 320px) / 880);
+    font-size: calc(22px + 10 * (100vw - 320px) / 880);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 92, src/scss/_components/_main.scss */
+  .ot-main__desc {
+    font-size: 32px;
+  }
+}
+
+/* line 100, src/scss/_components/_main.scss */
 .ot-main__text {
   width: 100%;
   max-width: 548px;
@@ -190,14 +307,30 @@ body #fp-nav.right {
   color: #000000;
   letter-spacing: 0;
   line-height: 1.55556;
+  font-size: 14px;
 }
 
-/* line 96, src/scss/_components/_main.scss */
+@media screen and (min-width: 320px) {
+  /* line 100, src/scss/_components/_main.scss */
+  .ot-main__text {
+    font-size: -webkit-calc(14px + 4 * (100vw - 320px) / 880);
+    font-size: calc(14px + 4 * (100vw - 320px) / 880);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 100, src/scss/_components/_main.scss */
+  .ot-main__text {
+    font-size: 18px;
+  }
+}
+
+/* line 110, src/scss/_components/_main.scss */
 .ot-main__text--pb {
   padding-bottom: 30px;
 }
 
-/* line 101, src/scss/_components/_main.scss */
+/* line 115, src/scss/_components/_main.scss */
 .ot-main__info {
   width: 100%;
   max-width: 800px;
@@ -206,20 +339,60 @@ body #fp-nav.right {
   padding-bottom: 30px;
   opacity: 0.7;
   font-family: 'SF Pro Text', sans-serif;
-  font-size: 20px;
   color: #000000;
   letter-spacing: 0;
   text-align: center;
   line-height: 1.55556;
+  font-size: 16px;
 }
 
-/* line 116, src/scss/_components/_main.scss */
+@media screen and (min-width: 320px) {
+  /* line 115, src/scss/_components/_main.scss */
+  .ot-main__info {
+    font-size: -webkit-calc(16px + 4 * (100vw - 320px) / 880);
+    font-size: calc(16px + 4 * (100vw - 320px) / 880);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 115, src/scss/_components/_main.scss */
+  .ot-main__info {
+    font-size: 20px;
+  }
+}
+
+/* line 130, src/scss/_components/_main.scss */
 .ot-main__table {
   padding-left: 30px;
   padding-right: 30px;
 }
 
-/* line 120, src/scss/_components/_main.scss */
+@media screen and (max-width: 991px) {
+  /* line 130, src/scss/_components/_main.scss */
+  .ot-main__table {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 130, src/scss/_components/_main.scss */
+  .ot-main__table {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 141, src/scss/_components/_main.scss */
+  .ot-main__table-scroll {
+    overflow-x: auto;
+    position: relative;
+    width: -webkit-calc(100% + 15px);
+    width: calc(100% + 15px);
+  }
+}
+
+/* line 149, src/scss/_components/_main.scss */
 .ot-main__table-tr {
   display: -webkit-box;
   display: -webkit-flex;
@@ -227,28 +400,28 @@ body #fp-nav.right {
   display: flex;
 }
 
-/* line 126, src/scss/_components/_main.scss */
+/* line 152, src/scss/_components/_main.scss */
 .ot-main__table-tr--first, .ot-main__table-tr--last {
   z-index: 2;
   position: relative;
 }
 
-/* line 131, src/scss/_components/_main.scss */
+/* line 157, src/scss/_components/_main.scss */
 .ot-main__table-tr--first .ot-main__table-td, .ot-main__table-tr--last .ot-main__table-td {
   min-height: 40px;
 }
 
-/* line 134, src/scss/_components/_main.scss */
+/* line 160, src/scss/_components/_main.scss */
 .ot-main__table-tr--first .ot-main__table-td-0, .ot-main__table-tr--last .ot-main__table-td-0 {
   background-color: transparent;
 }
 
-/* line 142, src/scss/_components/_main.scss */
+/* line 168, src/scss/_components/_main.scss */
 .ot-main__table-tr--first1 .ot-main__table-td, .ot-main__table-tr--last1 .ot-main__table-td {
   min-height: 80px;
 }
 
-/* line 149, src/scss/_components/_main.scss */
+/* line 175, src/scss/_components/_main.scss */
 .ot-main__table-tr--first .ot-main__table-td-1, .ot-main__table-tr--first .ot-main__table-td-2, .ot-main__table-tr--first .ot-main__table-td-3 {
   -webkit-border-top-left-radius: 10px;
           border-top-left-radius: 10px;
@@ -256,49 +429,49 @@ body #fp-nav.right {
           border-top-right-radius: 10px;
 }
 
-/* line 158, src/scss/_components/_main.scss */
+/* line 184, src/scss/_components/_main.scss */
 .ot-main__table-tr--first .ot-main__table-td-1 .ot-main__table-badge, .ot-main__table-tr--first .ot-main__table-td-3 .ot-main__table-badge {
   background-color: #44454C;
 }
 
-/* line 164, src/scss/_components/_main.scss */
+/* line 190, src/scss/_components/_main.scss */
 .ot-main__table-tr--first .ot-main__table-td-2 .ot-main__table-badge {
   background-color: #F40830;
 }
 
-/* line 174, src/scss/_components/_main.scss */
+/* line 200, src/scss/_components/_main.scss */
 .ot-main__table-tr--row:nth-of-type(odd) .ot-main__table-td-0, .ot-main__table-tr--row:nth-of-type(odd) .ot-main__table-td-2 {
   background-color: #26272e;
 }
 
-/* line 178, src/scss/_components/_main.scss */
+/* line 204, src/scss/_components/_main.scss */
 .ot-main__table-tr--row:nth-of-type(odd) .ot-main__table-td-1, .ot-main__table-tr--row:nth-of-type(odd) .ot-main__table-td-3 {
   background-color: #2b2c33;
 }
 
-/* line 187, src/scss/_components/_main.scss */
+/* line 213, src/scss/_components/_main.scss */
 .ot-main__table-tr--first1 .ot-main__table-td {
   padding-top: 30px;
 }
 
-/* line 190, src/scss/_components/_main.scss */
+/* line 216, src/scss/_components/_main.scss */
 .ot-main__table-tr--first1 .ot-main__table-td-0 {
   -webkit-border-top-left-radius: 30px;
           border-top-left-radius: 30px;
 }
 
-/* line 197, src/scss/_components/_main.scss */
+/* line 223, src/scss/_components/_main.scss */
 .ot-main__table-tr--last1 .ot-main__table-td {
   padding-bottom: 30px;
 }
 
-/* line 200, src/scss/_components/_main.scss */
+/* line 226, src/scss/_components/_main.scss */
 .ot-main__table-tr--last1 .ot-main__table-td-0 {
   -webkit-border-bottom-left-radius: 30px;
           border-bottom-left-radius: 30px;
 }
 
-/* line 208, src/scss/_components/_main.scss */
+/* line 234, src/scss/_components/_main.scss */
 .ot-main__table-tr--last .ot-main__table-td-1, .ot-main__table-tr--last .ot-main__table-td-2, .ot-main__table-tr--last .ot-main__table-td-3 {
   -webkit-border-bottom-left-radius: 10px;
           border-bottom-left-radius: 10px;
@@ -306,7 +479,15 @@ body #fp-nav.right {
           border-bottom-right-radius: 10px;
 }
 
-/* line 218, src/scss/_components/_main.scss */
+@media screen and (max-width: 991px) {
+  /* line 234, src/scss/_components/_main.scss */
+  .ot-main__table-tr--last .ot-main__table-td-1, .ot-main__table-tr--last .ot-main__table-td-2, .ot-main__table-tr--last .ot-main__table-td-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* line 248, src/scss/_components/_main.scss */
 .ot-main__table-td {
   display: -webkit-box;
   display: -webkit-flex;
@@ -325,7 +506,21 @@ body #fp-nav.right {
   background-color: #2F3038;
 }
 
-/* line 228, src/scss/_components/_main.scss */
+@media screen and (max-width: 991px) {
+  /* line 248, src/scss/_components/_main.scss */
+  .ot-main__table-td {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 248, src/scss/_components/_main.scss */
+  .ot-main__table-td {
+    padding: 5px 5px 5px 10px;
+  }
+}
+
+/* line 264, src/scss/_components/_main.scss */
 .ot-main__table-td p,
 .ot-main__table-td span {
   font-family: 'SF Pro Text', sans-serif;
@@ -334,7 +529,23 @@ body #fp-nav.right {
   letter-spacing: 0;
 }
 
-/* line 237, src/scss/_components/_main.scss */
+@media screen and (max-width: 991px) {
+  /* line 264, src/scss/_components/_main.scss */
+  .ot-main__table-td p,
+  .ot-main__table-td span {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 264, src/scss/_components/_main.scss */
+  .ot-main__table-td p,
+  .ot-main__table-td span {
+    font-size: 14px;
+  }
+}
+
+/* line 279, src/scss/_components/_main.scss */
 .ot-main__table-badge {
   display: -webkit-box;
   display: -webkit-flex;
@@ -370,7 +581,14 @@ body #fp-nav.right {
   text-align: center;
 }
 
-/* line 261, src/scss/_components/_main.scss */
+@media screen and (max-width: 991px) {
+  /* line 279, src/scss/_components/_main.scss */
+  .ot-main__table-badge {
+    font-size: 18px;
+  }
+}
+
+/* line 306, src/scss/_components/_main.scss */
 .ot-main__table-link {
   display: -webkit-box;
   display: -webkit-flex;
@@ -407,7 +625,22 @@ body #fp-nav.right {
   transition: background-color 0.3s ease-in-out;
 }
 
-/* line 284, src/scss/_components/_main.scss */
+@media screen and (max-width: 991px) {
+  /* line 306, src/scss/_components/_main.scss */
+  .ot-main__table-link {
+    max-width: 160px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 306, src/scss/_components/_main.scss */
+  .ot-main__table-link {
+    text-align: center;
+    max-width: 120px;
+  }
+}
+
+/* line 336, src/scss/_components/_main.scss */
 .ot-main__table-link:hover {
   background-color: rgba(243, 8, 48, 0.9);
   -webkit-transition: background-color 0.3s ease-in-out;
@@ -415,19 +648,49 @@ body #fp-nav.right {
   transition: background-color 0.3s ease-in-out;
 }
 
-/* line 290, src/scss/_components/_main.scss */
+/* line 342, src/scss/_components/_main.scss */
 .ot-main__table-info {
   padding-top: 50px;
-  padding-bottom: 100px;
   font-weight: 500;
-  font-size: 22px;
   color: #FFFFFF;
   letter-spacing: 0;
   text-align: center;
   line-height: 2.18182;
+  padding-bottom: 50px;
+  font-size: 18px;
 }
 
-/* line 302, src/scss/_components/_main.scss */
+@media screen and (min-width: 320px) {
+  /* line 342, src/scss/_components/_main.scss */
+  .ot-main__table-info {
+    padding-bottom: -webkit-calc(50px + 50 * (100vw - 320px) / 1046);
+    padding-bottom: calc(50px + 50 * (100vw - 320px) / 1046);
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 342, src/scss/_components/_main.scss */
+  .ot-main__table-info {
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  /* line 342, src/scss/_components/_main.scss */
+  .ot-main__table-info {
+    font-size: -webkit-calc(18px + 4 * (100vw - 320px) / 1046);
+    font-size: calc(18px + 4 * (100vw - 320px) / 1046);
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 342, src/scss/_components/_main.scss */
+  .ot-main__table-info {
+    font-size: 22px;
+  }
+}
+
+/* line 354, src/scss/_components/_main.scss */
 .ot-main__block {
   display: -webkit-box;
   display: -webkit-flex;
@@ -452,7 +715,35 @@ body #fp-nav.right {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* line 313, src/scss/_components/_main.scss */
+@media screen and (max-width: 1199px) {
+  /* line 354, src/scss/_components/_main.scss */
+  .ot-main__block {
+    padding: 30px 50px 50px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* line 354, src/scss/_components/_main.scss */
+  .ot-main__block {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 354, src/scss/_components/_main.scss */
+  .ot-main__block {
+    max-width: 450px;
+    min-height: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 376, src/scss/_components/_main.scss */
+  .ot-main__block:nth-of-type(1) {
+    margin-bottom: 30px;
+  }
+}
+
+/* line 381, src/scss/_components/_main.scss */
 .ot-main__block-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -464,33 +755,72 @@ body #fp-nav.right {
           justify-content: space-between;
 }
 
-/* line 318, src/scss/_components/_main.scss */
+@media screen and (max-width: 767px) {
+  /* line 381, src/scss/_components/_main.scss */
+  .ot-main__block-wrapper {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+
+/* line 389, src/scss/_components/_main.scss */
 .ot-main__block-title {
   padding-bottom: 45px;
   font-family: 'SF Pro Text', sans-serif;
   font-weight: bold;
-  font-size: 32px;
   color: #FFFFFF;
   letter-spacing: 0;
   line-height: 1.3125;
+  font-size: 26px;
 }
 
-/* line 328, src/scss/_components/_main.scss */
+@media screen and (min-width: 320px) {
+  /* line 389, src/scss/_components/_main.scss */
+  .ot-main__block-title {
+    font-size: -webkit-calc(26px + 6 * (100vw - 320px) / 880);
+    font-size: calc(26px + 6 * (100vw - 320px) / 880);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 389, src/scss/_components/_main.scss */
+  .ot-main__block-title {
+    font-size: 32px;
+  }
+}
+
+/* line 399, src/scss/_components/_main.scss */
 .ot-main__block-desc {
   padding-bottom: 42px;
   font-family: 'SF Pro Text', sans-serif;
-  font-size: 18px;
   color: #FFFFFF;
   letter-spacing: 0;
   line-height: 1.55556;
+  font-size: 14px;
 }
 
-/* line 336, src/scss/_components/_main.scss */
+@media screen and (min-width: 320px) {
+  /* line 399, src/scss/_components/_main.scss */
+  .ot-main__block-desc {
+    font-size: -webkit-calc(14px + 4 * (100vw - 320px) / 880);
+    font-size: calc(14px + 4 * (100vw - 320px) / 880);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 399, src/scss/_components/_main.scss */
+  .ot-main__block-desc {
+    font-size: 18px;
+  }
+}
+
+/* line 407, src/scss/_components/_main.scss */
 .ot-main__block-desc--pb {
   padding-bottom: 10px;
 }
 
-/* line 341, src/scss/_components/_main.scss */
+/* line 412, src/scss/_components/_main.scss */
 .ot-main__block-btn {
   display: -webkit-box;
   display: -webkit-flex;
@@ -514,12 +844,13 @@ body #fp-nav.right {
   font-size: 18px;
   color: #FFFFFF;
   letter-spacing: 0;
+  text-align: center;
   -webkit-transition: background-color 0.3s ease-in-out;
   -o-transition: background-color 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
 }
 
-/* line 357, src/scss/_components/_main.scss */
+/* line 429, src/scss/_components/_main.scss */
 .ot-main__block-btn:hover {
   background-color: rgba(243, 8, 48, 0.9);
   -webkit-transition: background-color 0.3s ease-in-out;

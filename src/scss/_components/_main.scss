@@ -11,27 +11,40 @@
     position: relative;
 
     &-0 {
-      padding-top: 201px;
+      @include fluid(padding-top, 320px, 1366px, 100px, 201px);
     }
 
     &-2 {
-      padding-bottom: 120px;
+      @include fluid(padding-bottom, 320px, 992px, 60px, 120px);
     }
   }
 
   &__row {
     &-0 {
       display: flex;
-      padding-bottom: 94px;
+      @include fluid(padding-bottom, 320px, 1366px, 45px, 94px);
+      @include adaptive(767) {
+        flex-wrap: wrap;
+      }
 
       .ot-main__col {
         width: 50%;
+        @include adaptive(767) {
+          width: 100%;
+        }
 
         &:nth-of-type(1) {
-          padding-right: 20px;
+          @include respond(medium) {
+            padding-right: 20px;
+          }
+          @include adaptive(767) {
+            padding-bottom: 30px;
+          }
         }
         &:nth-of-type(2) {
-          padding-left: 20px;
+          @include respond(medium) {
+            padding-left: 20px;
+          }
         }
       }
     }
@@ -68,20 +81,20 @@
   }
 
   &__title {
-    padding-bottom: 105px;
     font-weight: bold;
-    font-size: 120px;
     color: #000000;
     letter-spacing: 0;
     line-height: line-height-convert(154, 120);
+    @include fluid(padding-bottom, 320px, 1600px, 55px, 105px);
+    @include fluid(font-size, 320px, 1600px, 50px, 120px);
   }
 
   &__desc {
     font-weight: 500;
-    font-size: 32px;
     color: #000000;
     letter-spacing: 0;
     line-height: line-height-convert(48, 32);
+    @include fluid(font-size, 320px, 1200px, 22px, 32px);
   }
 
   &__text {
@@ -92,6 +105,7 @@
     color: #000000;
     letter-spacing: 0;
     line-height: line-height-convert(28, 18);
+    @include fluid(font-size, 320px, 1200px, 14px, 18px);
 
     &--pb {
       padding-bottom: 30px;
@@ -106,22 +120,34 @@
     padding-bottom: 30px;
     opacity: 0.7;
     font-family: 'SF Pro Text', sans-serif;
-    font-size: 20px;
     color: #000000;
     letter-spacing: 0;
     text-align: center;
     line-height: line-height-convert(28, 18);
+    @include fluid(font-size, 320px, 1200px, 16px, 20px);
   }
 
   &__table {
     padding-left: 30px;
     padding-right: 30px;
+    @include adaptive(991) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    @include adaptive(575) {
+      width: 700px;
+    }
+
+    &-scroll {
+      @include adaptive(575) {
+        overflow-x: auto;
+        position: relative;
+        width: calc(100% + 15px);
+      }
+    }
 
     &-tr {
       display: flex;
-
-      &:nth-of-type(odd) {}
-      &:nth-of-type(even) {}
 
       &--first,
       &--last {
@@ -210,6 +236,10 @@
           &-3 {
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
+            @include adaptive(991) {
+              padding-left: 10px;
+              padding-right: 10px;
+            }
           }
         }
       }
@@ -224,6 +254,12 @@
       min-height: 50px;
       padding-left: 50px;
       background-color: #2F3038;
+      @include adaptive(991) {
+        padding-left: 20px;
+      }
+      @include adaptive(767) {
+        padding: 5px 5px 5px 10px;
+      }
 
       p,
       span {
@@ -231,6 +267,12 @@
         font-size: 18px;
         color: #FFFFFF;
         letter-spacing: 0;
+        @include adaptive(991) {
+          font-size: 16px;
+        }
+        @include adaptive(767) {
+          font-size: 14px;
+        }
       }
     }
 
@@ -256,6 +298,9 @@
       color: #FFFFFF;
       letter-spacing: 0;
       text-align: center;
+      @include adaptive(991) {
+        font-size: 18px;
+      }
     }
 
     &-link {
@@ -280,6 +325,13 @@
       color: #FFFFFF;
       letter-spacing: 0;
       @include transition(background-color);
+      @include adaptive(991) {
+        max-width: 160px;
+      }
+      @include adaptive(767) {
+        text-align: center;
+        max-width: 120px;
+      }
 
       &:hover {
         background-color: rgba(#F30830, 0.9);
@@ -289,13 +341,13 @@
 
     &-info {
       padding-top: 50px;
-      padding-bottom: 100px;
       font-weight: 500;
-      font-size: 22px;
       color: #FFFFFF;
       letter-spacing: 0;
       text-align: center;
       line-height: line-height-convert(48, 22);
+      @include fluid(padding-bottom, 320px, 1366px, 50px, 100px);
+      @include fluid(font-size, 320px, 1366px, 18px, 22px);
     }
   }
 
@@ -309,29 +361,48 @@
     padding: 50px 75px 75px;
     border-radius: 30px;
     background-color: rgba(#fff, 0.1);
+    @include adaptive(1199) {
+      padding: 30px 50px 50px;
+    }
+    @include adaptive(991) {
+      padding: 30px;
+    }
+    @include adaptive(767) {
+      max-width: 450px;
+      min-height: 0;
+      margin-left: auto;
+      margin-right: auto;
+
+      &:nth-of-type(1) {
+        margin-bottom: 30px;
+      }
+    }
 
     &-wrapper {
       display: flex;
       justify-content: space-between;
+      @include adaptive(767) {
+        flex-wrap: wrap;
+      }
     }
 
     &-title {
       padding-bottom: 45px;
       font-family: 'SF Pro Text', sans-serif;
       font-weight: bold;
-      font-size: 32px;
       color: #FFFFFF;
       letter-spacing: 0;
       line-height: line-height-convert(42, 32);
+      @include fluid(font-size, 320px, 1200px, 26px, 32px);
     }
 
     &-desc {
       padding-bottom: 42px;
       font-family: 'SF Pro Text', sans-serif;
-      font-size: 18px;
       color: #FFFFFF;
       letter-spacing: 0;
       line-height: line-height-convert(28, 18);
+      @include fluid(font-size, 320px, 1200px, 14px, 18px);
 
       &--pb {
         padding-bottom: 10px;
@@ -352,6 +423,7 @@
       font-size: 18px;
       color: #FFFFFF;
       letter-spacing: 0;
+      text-align: center;
       @include transition(background-color);
 
       &:hover {
