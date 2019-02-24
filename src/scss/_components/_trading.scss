@@ -1,19 +1,21 @@
 // SECTION trading :: START
 
 .ot-trading {
-  padding-top: 110px;
-  padding-bottom: 320px;
   background-color: #f7f7f7;
+  @include fluid(padding-top, 320px, 1366px, 55px, 110px);
+  @include fluid(padding-bottom, 320px, 1366px, 100px, 320px);
 
   .c-grid {
     max-width: 1412px;
   }
 
-  &__wrapper {}
-
   &__row {
     display: flex;
     padding-bottom: 80px;
+    @include adaptive(575) {
+      flex-wrap: wrap;
+      padding-bottom: 45px;
+    }
 
     &-left,
     &-right {
@@ -23,37 +25,57 @@
     &-left {
       max-width: 600px;
       padding-right: 40px;
+      @include adaptive(1199) {
+        max-width: 50%;
+        padding-right: 15px;
+      }
+      @include adaptive(575) {
+        max-width: 100%;
+        padding-right: 0;
+        padding-bottom: 30px;
+      }
     }
 
     &-right {
       max-width: calc(100% - 600px);
+      @include adaptive(1199) {
+        max-width: 50%;
+        padding-left: 15px;
+      }
+      @include adaptive(575) {
+        max-width: 100%;
+        padding-left: 0;
+      }
     }
   }
 
   &__title {
     padding-bottom: 40px;
     font-weight: bold;
-    font-size: 70px;
     color: #000000;
     letter-spacing: 0;
     line-height: line-height-convert(80,70);
+    @include fluid(font-size, 320px, 1366px, 38px, 70px);
   }
 
   &__desc {
     padding-bottom: 60px;
     font-weight: 500;
-    font-size: 32px;
     color: #F40830;
     letter-spacing: 0;
     line-height: line-height-convert(48,32);
+    @include fluid(font-size, 320px, 1366px, 20px, 32px);
+    @include adaptive(575) {
+      padding-bottom: 40px;
+    }
   }
 
   &__subtitle {
     padding-bottom: 30px;
     font-weight: bold;
-    font-size: 40px;
     color: #000000;
     letter-spacing: 0;
+    @include fluid(font-size, 320px, 1366px, 30px, 40px);
 
     &--pb {
       padding-bottom: 60px;
@@ -62,10 +84,10 @@
 
   &__text {
     font-family: "SF Pro Text", sans-serif;
-    font-size: 18px;
     color: #000000;
     letter-spacing: 0;
     line-height: line-height-convert(28,18);
+    @include fluid(font-size, 320px, 992px, 14px, 18px);
   }
 
   &__table {
@@ -75,6 +97,17 @@
     max-width: calc(200px + 430px + 240px + 240px);
     box-shadow: 0 1px 30px 0 rgba(#000, 0.1);
     background-color: #ffffff;
+    @include adaptive(575) {
+      width: 630px;
+    }
+
+    &-scroll {
+      @include adaptive(575) {
+        overflow-y: auto;
+        position: relative;
+        width: calc(100% + 15px);
+      }
+    }
 
     &-tr {
       display: flex;
@@ -108,17 +141,19 @@
 
           p {
             font-weight: bold;
-            font-size: 22px;
+            //font-size: 22px;
             color: #30304D;
             letter-spacing: 0;
+            @include fluid(font-size, 320px, 1200px, 16px, 22px);
           }
 
           span {
             opacity: 0.5;
             font-family: 'SF Pro Text', sans-serif;
-            font-size: 14px;
+            //font-size: 14px;
             color: #30304D;
             letter-spacing: 0;
+            @include fluid(font-size, 320px, 992px, 12px, 14px);
           }
         }
       }
@@ -154,9 +189,10 @@
 
       span {
         font-family: "SF Pro Text", sans-serif;
-        font-size: 18px;
+        //font-size: 18px;
         color: #30304D;
         letter-spacing: 0;
+        @include fluid(font-size, 320px, 1200px, 14px, 18px);
       }
     }
 

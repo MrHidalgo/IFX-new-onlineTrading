@@ -1617,9 +1617,39 @@ body #fp-nav.right {
 
 /* line 3, src/scss/_components/_trading.scss */
 .ot-trading {
-  padding-top: 110px;
-  padding-bottom: 320px;
   background-color: #f7f7f7;
+  padding-top: 55px;
+  padding-bottom: 100px;
+}
+
+@media screen and (min-width: 320px) {
+  /* line 3, src/scss/_components/_trading.scss */
+  .ot-trading {
+    padding-top: -webkit-calc(55px + 55 * (100vw - 320px) / 1046);
+    padding-top: calc(55px + 55 * (100vw - 320px) / 1046);
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 3, src/scss/_components/_trading.scss */
+  .ot-trading {
+    padding-top: 110px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  /* line 3, src/scss/_components/_trading.scss */
+  .ot-trading {
+    padding-bottom: -webkit-calc(100px + 220 * (100vw - 320px) / 1046);
+    padding-bottom: calc(100px + 220 * (100vw - 320px) / 1046);
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 3, src/scss/_components/_trading.scss */
+  .ot-trading {
+    padding-bottom: 320px;
+  }
 }
 
 /* line 8, src/scss/_components/_trading.scss */
@@ -1627,7 +1657,7 @@ body #fp-nav.right {
   max-width: 1412px;
 }
 
-/* line 14, src/scss/_components/_trading.scss */
+/* line 12, src/scss/_components/_trading.scss */
 .ot-trading__row {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1636,67 +1666,177 @@ body #fp-nav.right {
   padding-bottom: 80px;
 }
 
-/* line 18, src/scss/_components/_trading.scss */
+@media screen and (max-width: 575px) {
+  /* line 12, src/scss/_components/_trading.scss */
+  .ot-trading__row {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    padding-bottom: 45px;
+  }
+}
+
+/* line 20, src/scss/_components/_trading.scss */
 .ot-trading__row-left, .ot-trading__row-right {
   width: 100%;
 }
 
-/* line 23, src/scss/_components/_trading.scss */
+/* line 25, src/scss/_components/_trading.scss */
 .ot-trading__row-left {
   max-width: 600px;
   padding-right: 40px;
 }
 
-/* line 28, src/scss/_components/_trading.scss */
+@media screen and (max-width: 1199px) {
+  /* line 25, src/scss/_components/_trading.scss */
+  .ot-trading__row-left {
+    max-width: 50%;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 25, src/scss/_components/_trading.scss */
+  .ot-trading__row-left {
+    max-width: 100%;
+    padding-right: 0;
+    padding-bottom: 30px;
+  }
+}
+
+/* line 39, src/scss/_components/_trading.scss */
 .ot-trading__row-right {
   max-width: -webkit-calc(100% - 600px);
   max-width: calc(100% - 600px);
 }
 
-/* line 33, src/scss/_components/_trading.scss */
+@media screen and (max-width: 1199px) {
+  /* line 39, src/scss/_components/_trading.scss */
+  .ot-trading__row-right {
+    max-width: 50%;
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 39, src/scss/_components/_trading.scss */
+  .ot-trading__row-right {
+    max-width: 100%;
+    padding-left: 0;
+  }
+}
+
+/* line 52, src/scss/_components/_trading.scss */
 .ot-trading__title {
   padding-bottom: 40px;
   font-weight: bold;
-  font-size: 70px;
   color: #000000;
   letter-spacing: 0;
   line-height: 1.14286;
+  font-size: 38px;
 }
 
-/* line 42, src/scss/_components/_trading.scss */
+@media screen and (min-width: 320px) {
+  /* line 52, src/scss/_components/_trading.scss */
+  .ot-trading__title {
+    font-size: -webkit-calc(38px + 32 * (100vw - 320px) / 1046);
+    font-size: calc(38px + 32 * (100vw - 320px) / 1046);
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 52, src/scss/_components/_trading.scss */
+  .ot-trading__title {
+    font-size: 70px;
+  }
+}
+
+/* line 61, src/scss/_components/_trading.scss */
 .ot-trading__desc {
   padding-bottom: 60px;
   font-weight: 500;
-  font-size: 32px;
   color: #F40830;
   letter-spacing: 0;
   line-height: 1.5;
+  font-size: 20px;
 }
 
-/* line 51, src/scss/_components/_trading.scss */
+@media screen and (min-width: 320px) {
+  /* line 61, src/scss/_components/_trading.scss */
+  .ot-trading__desc {
+    font-size: -webkit-calc(20px + 12 * (100vw - 320px) / 1046);
+    font-size: calc(20px + 12 * (100vw - 320px) / 1046);
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 61, src/scss/_components/_trading.scss */
+  .ot-trading__desc {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 61, src/scss/_components/_trading.scss */
+  .ot-trading__desc {
+    padding-bottom: 40px;
+  }
+}
+
+/* line 73, src/scss/_components/_trading.scss */
 .ot-trading__subtitle {
   padding-bottom: 30px;
   font-weight: bold;
-  font-size: 40px;
   color: #000000;
   letter-spacing: 0;
+  font-size: 30px;
 }
 
-/* line 58, src/scss/_components/_trading.scss */
+@media screen and (min-width: 320px) {
+  /* line 73, src/scss/_components/_trading.scss */
+  .ot-trading__subtitle {
+    font-size: -webkit-calc(30px + 10 * (100vw - 320px) / 1046);
+    font-size: calc(30px + 10 * (100vw - 320px) / 1046);
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 73, src/scss/_components/_trading.scss */
+  .ot-trading__subtitle {
+    font-size: 40px;
+  }
+}
+
+/* line 80, src/scss/_components/_trading.scss */
 .ot-trading__subtitle--pb {
   padding-bottom: 60px;
 }
 
-/* line 63, src/scss/_components/_trading.scss */
+/* line 85, src/scss/_components/_trading.scss */
 .ot-trading__text {
   font-family: "SF Pro Text", sans-serif;
-  font-size: 18px;
   color: #000000;
   letter-spacing: 0;
   line-height: 1.55556;
+  font-size: 14px;
 }
 
-/* line 71, src/scss/_components/_trading.scss */
+@media screen and (min-width: 320px) {
+  /* line 85, src/scss/_components/_trading.scss */
+  .ot-trading__text {
+    font-size: -webkit-calc(14px + 4 * (100vw - 320px) / 672);
+    font-size: calc(14px + 4 * (100vw - 320px) / 672);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* line 85, src/scss/_components/_trading.scss */
+  .ot-trading__text {
+    font-size: 18px;
+  }
+}
+
+/* line 93, src/scss/_components/_trading.scss */
 .ot-trading__table {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1715,7 +1855,24 @@ body #fp-nav.right {
   background-color: #ffffff;
 }
 
-/* line 79, src/scss/_components/_trading.scss */
+@media screen and (max-width: 575px) {
+  /* line 93, src/scss/_components/_trading.scss */
+  .ot-trading__table {
+    width: 630px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 104, src/scss/_components/_trading.scss */
+  .ot-trading__table-scroll {
+    overflow-y: auto;
+    position: relative;
+    width: -webkit-calc(100% + 15px);
+    width: calc(100% + 15px);
+  }
+}
+
+/* line 112, src/scss/_components/_trading.scss */
 .ot-trading__table-tr {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1724,12 +1881,12 @@ body #fp-nav.right {
   height: 60px;
 }
 
-/* line 83, src/scss/_components/_trading.scss */
+/* line 116, src/scss/_components/_trading.scss */
 .ot-trading__table-tr--first {
   height: 100px;
 }
 
-/* line 86, src/scss/_components/_trading.scss */
+/* line 119, src/scss/_components/_trading.scss */
 .ot-trading__table-tr--first .ot-trading__table-td {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1746,22 +1903,22 @@ body #fp-nav.right {
           justify-content: center;
 }
 
-/* line 91, src/scss/_components/_trading.scss */
+/* line 124, src/scss/_components/_trading.scss */
 .ot-trading__table-tr--first .ot-trading__table-td-0, .ot-trading__table-tr--first .ot-trading__table-td-2 {
   background-color: #fcfcfc;
 }
 
-/* line 96, src/scss/_components/_trading.scss */
+/* line 129, src/scss/_components/_trading.scss */
 .ot-trading__table-tr--first .ot-trading__table-td-0 {
   padding-left: 40px;
 }
 
-/* line 100, src/scss/_components/_trading.scss */
+/* line 133, src/scss/_components/_trading.scss */
 .ot-trading__table-tr--first .ot-trading__table-td-1 {
   padding-left: 40px;
 }
 
-/* line 104, src/scss/_components/_trading.scss */
+/* line 137, src/scss/_components/_trading.scss */
 .ot-trading__table-tr--first .ot-trading__table-td-2, .ot-trading__table-tr--first .ot-trading__table-td-3 {
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -1769,52 +1926,97 @@ body #fp-nav.right {
           align-items: center;
 }
 
-/* line 109, src/scss/_components/_trading.scss */
+/* line 142, src/scss/_components/_trading.scss */
 .ot-trading__table-tr--first .ot-trading__table-td p {
   font-weight: bold;
-  font-size: 22px;
   color: #30304D;
   letter-spacing: 0;
+  font-size: 16px;
 }
 
-/* line 116, src/scss/_components/_trading.scss */
+@media screen and (min-width: 320px) {
+  /* line 142, src/scss/_components/_trading.scss */
+  .ot-trading__table-tr--first .ot-trading__table-td p {
+    font-size: -webkit-calc(16px + 6 * (100vw - 320px) / 880);
+    font-size: calc(16px + 6 * (100vw - 320px) / 880);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 142, src/scss/_components/_trading.scss */
+  .ot-trading__table-tr--first .ot-trading__table-td p {
+    font-size: 22px;
+  }
+}
+
+/* line 150, src/scss/_components/_trading.scss */
 .ot-trading__table-tr--first .ot-trading__table-td span {
   opacity: 0.5;
   font-family: 'SF Pro Text', sans-serif;
-  font-size: 14px;
   color: #30304D;
   letter-spacing: 0;
+  font-size: 12px;
 }
 
-/* line 129, src/scss/_components/_trading.scss */
+@media screen and (min-width: 320px) {
+  /* line 150, src/scss/_components/_trading.scss */
+  .ot-trading__table-tr--first .ot-trading__table-td span {
+    font-size: -webkit-calc(12px + 2 * (100vw - 320px) / 672);
+    font-size: calc(12px + 2 * (100vw - 320px) / 672);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* line 150, src/scss/_components/_trading.scss */
+  .ot-trading__table-tr--first .ot-trading__table-td span {
+    font-size: 14px;
+  }
+}
+
+/* line 164, src/scss/_components/_trading.scss */
 .ot-trading__table-tr--row:nth-of-type(even) .ot-trading__table-td-0, .ot-trading__table-tr--row:nth-of-type(even) .ot-trading__table-td-2 {
   background-color: #f7f7f7;
 }
 
-/* line 134, src/scss/_components/_trading.scss */
+/* line 169, src/scss/_components/_trading.scss */
 .ot-trading__table-tr--row:nth-of-type(even) .ot-trading__table-td-1, .ot-trading__table-tr--row:nth-of-type(even) .ot-trading__table-td-3 {
   background-color: #fcfcfc;
 }
 
-/* line 142, src/scss/_components/_trading.scss */
+/* line 177, src/scss/_components/_trading.scss */
 .ot-trading__table-tr--row:nth-of-type(odd) .ot-trading__table-td-0, .ot-trading__table-tr--row:nth-of-type(odd) .ot-trading__table-td-2 {
   background-color: #fcfcfc;
 }
 
-/* line 147, src/scss/_components/_trading.scss */
+/* line 182, src/scss/_components/_trading.scss */
 .ot-trading__table-tr--row:nth-of-type(odd) .ot-trading__table-td-1, .ot-trading__table-tr--row:nth-of-type(odd) .ot-trading__table-td-3 {
   background-color: #fff;
 }
 
-/* line 155, src/scss/_components/_trading.scss */
+/* line 190, src/scss/_components/_trading.scss */
 .ot-trading__table-tr span {
   font-family: "SF Pro Text", sans-serif;
-  font-size: 18px;
   color: #30304D;
   letter-spacing: 0;
+  font-size: 14px;
 }
 
-/* line 163, src/scss/_components/_trading.scss */
+@media screen and (min-width: 320px) {
+  /* line 190, src/scss/_components/_trading.scss */
+  .ot-trading__table-tr span {
+    font-size: -webkit-calc(14px + 4 * (100vw - 320px) / 880);
+    font-size: calc(14px + 4 * (100vw - 320px) / 880);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 190, src/scss/_components/_trading.scss */
+  .ot-trading__table-tr span {
+    font-size: 18px;
+  }
+}
+
+/* line 199, src/scss/_components/_trading.scss */
 .ot-trading__table-td {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1828,22 +2030,22 @@ body #fp-nav.right {
   height: 100%;
 }
 
-/* line 169, src/scss/_components/_trading.scss */
+/* line 205, src/scss/_components/_trading.scss */
 .ot-trading__table-td-0 {
   max-width: 200px;
 }
 
-/* line 173, src/scss/_components/_trading.scss */
+/* line 209, src/scss/_components/_trading.scss */
 .ot-trading__table-td-1 {
   max-width: 430px;
 }
 
-/* line 177, src/scss/_components/_trading.scss */
+/* line 213, src/scss/_components/_trading.scss */
 .ot-trading__table-td-0, .ot-trading__table-td-1 {
   padding-left: 40px;
 }
 
-/* line 182, src/scss/_components/_trading.scss */
+/* line 218, src/scss/_components/_trading.scss */
 .ot-trading__table-td-2, .ot-trading__table-td-3 {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
