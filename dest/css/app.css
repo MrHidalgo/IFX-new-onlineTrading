@@ -402,9 +402,20 @@ body #fp-nav.right {
   font-size: 14px;
   color: #FFFFFF;
   letter-spacing: 0;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 
 /* line 284, src/scss/_components/_main.scss */
+.ot-main__table-link:hover {
+  background-color: rgba(243, 8, 48, 0.9);
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* line 290, src/scss/_components/_main.scss */
 .ot-main__table-info {
   padding-top: 50px;
   padding-bottom: 100px;
@@ -416,7 +427,7 @@ body #fp-nav.right {
   line-height: 2.18182;
 }
 
-/* line 296, src/scss/_components/_main.scss */
+/* line 302, src/scss/_components/_main.scss */
 .ot-main__block {
   display: -webkit-box;
   display: -webkit-flex;
@@ -441,7 +452,7 @@ body #fp-nav.right {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* line 307, src/scss/_components/_main.scss */
+/* line 313, src/scss/_components/_main.scss */
 .ot-main__block-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -453,7 +464,7 @@ body #fp-nav.right {
           justify-content: space-between;
 }
 
-/* line 312, src/scss/_components/_main.scss */
+/* line 318, src/scss/_components/_main.scss */
 .ot-main__block-title {
   padding-bottom: 45px;
   font-family: 'SF Pro Text', sans-serif;
@@ -464,7 +475,7 @@ body #fp-nav.right {
   line-height: 1.3125;
 }
 
-/* line 322, src/scss/_components/_main.scss */
+/* line 328, src/scss/_components/_main.scss */
 .ot-main__block-desc {
   padding-bottom: 42px;
   font-family: 'SF Pro Text', sans-serif;
@@ -474,12 +485,12 @@ body #fp-nav.right {
   line-height: 1.55556;
 }
 
-/* line 330, src/scss/_components/_main.scss */
+/* line 336, src/scss/_components/_main.scss */
 .ot-main__block-desc--pb {
   padding-bottom: 10px;
 }
 
-/* line 335, src/scss/_components/_main.scss */
+/* line 341, src/scss/_components/_main.scss */
 .ot-main__block-btn {
   display: -webkit-box;
   display: -webkit-flex;
@@ -503,6 +514,17 @@ body #fp-nav.right {
   font-size: 18px;
   color: #FFFFFF;
   letter-spacing: 0;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* line 357, src/scss/_components/_main.scss */
+.ot-main__block-btn:hover {
+  background-color: rgba(243, 8, 48, 0.9);
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 
 /* line 3, src/scss/_components/_platforms.scss */
