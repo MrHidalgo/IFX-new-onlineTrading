@@ -1006,7 +1006,7 @@ body #fp-nav.right {
   }
 }
 
-/* line 80, src/scss/_components/_platforms.scss */
+/* line 78, src/scss/_components/_platforms.scss */
 .ot-platforms__subtitle {
   padding-bottom: 20px;
   font-weight: bold;
@@ -1016,7 +1016,7 @@ body #fp-nav.right {
 }
 
 @media screen and (min-width: 320px) {
-  /* line 80, src/scss/_components/_platforms.scss */
+  /* line 78, src/scss/_components/_platforms.scss */
   .ot-platforms__subtitle {
     font-size: -webkit-calc(32px + 12 * (100vw - 320px) / 1046);
     font-size: calc(32px + 12 * (100vw - 320px) / 1046);
@@ -1024,13 +1024,13 @@ body #fp-nav.right {
 }
 
 @media screen and (min-width: 1366px) {
-  /* line 80, src/scss/_components/_platforms.scss */
+  /* line 78, src/scss/_components/_platforms.scss */
   .ot-platforms__subtitle {
     font-size: 44px;
   }
 }
 
-/* line 89, src/scss/_components/_platforms.scss */
+/* line 86, src/scss/_components/_platforms.scss */
 .ot-platforms__info {
   padding-bottom: 40px;
   font-weight: 500;
@@ -1041,7 +1041,7 @@ body #fp-nav.right {
 }
 
 @media screen and (min-width: 320px) {
-  /* line 89, src/scss/_components/_platforms.scss */
+  /* line 86, src/scss/_components/_platforms.scss */
   .ot-platforms__info {
     font-size: -webkit-calc(26px + 6 * (100vw - 320px) / 1046);
     font-size: calc(26px + 6 * (100vw - 320px) / 1046);
@@ -1049,13 +1049,13 @@ body #fp-nav.right {
 }
 
 @media screen and (min-width: 1366px) {
-  /* line 89, src/scss/_components/_platforms.scss */
+  /* line 86, src/scss/_components/_platforms.scss */
   .ot-platforms__info {
     font-size: 32px;
   }
 }
 
-/* line 99, src/scss/_components/_platforms.scss */
+/* line 95, src/scss/_components/_platforms.scss */
 .ot-platforms__text {
   font-family: 'SF Pro Text', sans-serif;
   color: #131324;
@@ -1065,7 +1065,7 @@ body #fp-nav.right {
 }
 
 @media screen and (min-width: 320px) {
-  /* line 99, src/scss/_components/_platforms.scss */
+  /* line 95, src/scss/_components/_platforms.scss */
   .ot-platforms__text {
     font-size: -webkit-calc(14px + 4 * (100vw - 320px) / 672);
     font-size: calc(14px + 4 * (100vw - 320px) / 672);
@@ -1073,23 +1073,23 @@ body #fp-nav.right {
 }
 
 @media screen and (min-width: 992px) {
-  /* line 99, src/scss/_components/_platforms.scss */
+  /* line 95, src/scss/_components/_platforms.scss */
   .ot-platforms__text {
     font-size: 18px;
   }
 }
 
-/* line 107, src/scss/_components/_platforms.scss */
+/* line 102, src/scss/_components/_platforms.scss */
 .ot-platforms__text--pb {
   padding-bottom: 30px;
 }
 
-/* line 111, src/scss/_components/_platforms.scss */
+/* line 106, src/scss/_components/_platforms.scss */
 .ot-platforms__text--mb {
   padding-bottom: 54px;
 }
 
-/* line 116, src/scss/_components/_platforms.scss */
+/* line 111, src/scss/_components/_platforms.scss */
 .ot-platforms__btn {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1104,26 +1104,26 @@ body #fp-nav.right {
   border: 1px solid #E6E6E6;
 }
 
-/* line 125, src/scss/_components/_platforms.scss */
+/* line 120, src/scss/_components/_platforms.scss */
 .ot-platforms__btn--half {
   max-width: -webkit-calc((100% - 20px) / 2);
   max-width: calc((100% - 20px) / 2);
 }
 
 @media screen and (max-width: 991px) {
-  /* line 125, src/scss/_components/_platforms.scss */
+  /* line 120, src/scss/_components/_platforms.scss */
   .ot-platforms__btn--half {
     max-width: 100%;
   }
 }
 
-/* line 132, src/scss/_components/_platforms.scss */
+/* line 127, src/scss/_components/_platforms.scss */
 .ot-platforms__btn--full {
   max-width: 100%;
   margin-bottom: 0;
 }
 
-/* line 136, src/scss/_components/_platforms.scss */
+/* line 131, src/scss/_components/_platforms.scss */
 .ot-platforms__btn--full .ot-platforms__btn-right {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1145,23 +1145,23 @@ body #fp-nav.right {
   padding-right: 20px;
 }
 
-/* line 145, src/scss/_components/_platforms.scss */
+/* line 140, src/scss/_components/_platforms.scss */
 .ot-platforms__btn--black {
   background-color: #000;
 }
 
-/* line 149, src/scss/_components/_platforms.scss */
+/* line 144, src/scss/_components/_platforms.scss */
 .ot-platforms__btn--black .ot-platforms__btn-right span {
   opacity: 0.5;
   color: #FFFFFF;
 }
 
-/* line 154, src/scss/_components/_platforms.scss */
+/* line 149, src/scss/_components/_platforms.scss */
 .ot-platforms__btn--black .ot-platforms__btn-right p {
   color: #fff;
 }
 
-/* line 160, src/scss/_components/_platforms.scss */
+/* line 155, src/scss/_components/_platforms.scss */
 .ot-platforms__btn-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1176,7 +1176,7 @@ body #fp-nav.right {
           justify-content: space-between;
 }
 
-/* line 166, src/scss/_components/_platforms.scss */
+/* line 161, src/scss/_components/_platforms.scss */
 .ot-platforms__btn-left {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1194,7 +1194,7 @@ body #fp-nav.right {
   border-right: 1px solid #E6E6E6;
 }
 
-/* line 174, src/scss/_components/_platforms.scss */
+/* line 169, src/scss/_components/_platforms.scss */
 .ot-platforms__btn-right {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1215,7 +1215,7 @@ body #fp-nav.right {
   padding-left: 15px;
 }
 
-/* line 182, src/scss/_components/_platforms.scss */
+/* line 177, src/scss/_components/_platforms.scss */
 .ot-platforms__btn-right span {
   opacity: 0.5;
   font-family: "SF Pro Text", sans-serif;
@@ -1225,7 +1225,7 @@ body #fp-nav.right {
   letter-spacing: 0;
 }
 
-/* line 191, src/scss/_components/_platforms.scss */
+/* line 186, src/scss/_components/_platforms.scss */
 .ot-platforms__btn-right p {
   font-family: "SF Pro Text", sans-serif;
   font-weight: 600;
@@ -1237,7 +1237,22 @@ body #fp-nav.right {
 /* line 3, src/scss/_components/_getting.scss */
 .ot-getting {
   padding-top: 42px;
-  padding-bottom: 201px;
+  padding-bottom: 101px;
+}
+
+@media screen and (min-width: 320px) {
+  /* line 3, src/scss/_components/_getting.scss */
+  .ot-getting {
+    padding-bottom: -webkit-calc(101px + 100 * (100vw - 320px) / 1046);
+    padding-bottom: calc(101px + 100 * (100vw - 320px) / 1046);
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 3, src/scss/_components/_getting.scss */
+  .ot-getting {
+    padding-bottom: 201px;
+  }
 }
 
 /* line 7, src/scss/_components/_getting.scss */
@@ -1253,54 +1268,136 @@ body #fp-nav.right {
   display: flex;
 }
 
-/* line 14, src/scss/_components/_getting.scss */
+@media screen and (max-width: 1199px) {
+  /* line 11, src/scss/_components/_getting.scss */
+  .ot-getting__wrapper {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+
+/* line 17, src/scss/_components/_getting.scss */
 .ot-getting__wrapper-left, .ot-getting__wrapper-right {
   width: 50%;
 }
 
-/* line 19, src/scss/_components/_getting.scss */
+@media screen and (max-width: 1199px) {
+  /* line 17, src/scss/_components/_getting.scss */
+  .ot-getting__wrapper-left, .ot-getting__wrapper-right {
+    width: 100%;
+  }
+}
+
+/* line 25, src/scss/_components/_getting.scss */
 .ot-getting__wrapper-right {
   padding-top: 40px;
 }
 
-/* line 24, src/scss/_components/_getting.scss */
+/* line 30, src/scss/_components/_getting.scss */
 .ot-getting__title {
   padding-bottom: 40px;
   font-weight: bold;
-  font-size: 70px;
   color: #000000;
   letter-spacing: 0;
   line-height: 1;
+  font-size: 45px;
 }
 
-/* line 33, src/scss/_components/_getting.scss */
+@media screen and (min-width: 320px) {
+  /* line 30, src/scss/_components/_getting.scss */
+  .ot-getting__title {
+    font-size: -webkit-calc(45px + 25 * (100vw - 320px) / 1046);
+    font-size: calc(45px + 25 * (100vw - 320px) / 1046);
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 30, src/scss/_components/_getting.scss */
+  .ot-getting__title {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  /* line 38, src/scss/_components/_getting.scss */
+  .ot-getting__title br {
+    display: none;
+  }
+}
+
+/* line 44, src/scss/_components/_getting.scss */
 .ot-getting__subtitle {
   width: 100%;
   max-width: 410px;
   padding-bottom: 40px;
   font-weight: bold;
-  font-size: 32px;
   color: #000000;
   letter-spacing: 0;
+  font-size: 24px;
 }
 
-/* line 43, src/scss/_components/_getting.scss */
+@media screen and (min-width: 320px) {
+  /* line 44, src/scss/_components/_getting.scss */
+  .ot-getting__subtitle {
+    font-size: -webkit-calc(24px + 8 * (100vw - 320px) / 1046);
+    font-size: calc(24px + 8 * (100vw - 320px) / 1046);
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 44, src/scss/_components/_getting.scss */
+  .ot-getting__subtitle {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  /* line 44, src/scss/_components/_getting.scss */
+  .ot-getting__subtitle {
+    max-width: 100%;
+  }
+}
+
+/* line 57, src/scss/_components/_getting.scss */
 .ot-getting__text {
   width: 100%;
   max-width: 410px;
   font-family: "SF Pro Text", sans-serif;
-  font-size: 18px;
   color: #000000;
   letter-spacing: 0;
   line-height: 1.55556;
+  font-size: 14px;
 }
 
-/* line 52, src/scss/_components/_getting.scss */
+@media screen and (min-width: 320px) {
+  /* line 57, src/scss/_components/_getting.scss */
+  .ot-getting__text {
+    font-size: -webkit-calc(14px + 4 * (100vw - 320px) / 672);
+    font-size: calc(14px + 4 * (100vw - 320px) / 672);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* line 57, src/scss/_components/_getting.scss */
+  .ot-getting__text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  /* line 57, src/scss/_components/_getting.scss */
+  .ot-getting__text {
+    max-width: 100%;
+  }
+}
+
+/* line 69, src/scss/_components/_getting.scss */
 .ot-getting__text--pb {
   padding-bottom: 20px;
 }
 
-/* line 57, src/scss/_components/_getting.scss */
+/* line 74, src/scss/_components/_getting.scss */
 .ot-getting__block {
   padding: 30px 40px;
   background: #FFFFFF;
@@ -1309,7 +1406,23 @@ body #fp-nav.right {
           box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.1);
 }
 
-/* line 63, src/scss/_components/_getting.scss */
+@media screen and (max-width: 1199px) {
+  /* line 74, src/scss/_components/_getting.scss */
+  .ot-getting__block {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 74, src/scss/_components/_getting.scss */
+  .ot-getting__block {
+    padding: 15px 20px;
+  }
+}
+
+/* line 88, src/scss/_components/_getting.scss */
 .ot-getting__block-head {
   position: relative;
   display: -webkit-box;
@@ -1324,7 +1437,20 @@ body #fp-nav.right {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-/* line 70, src/scss/_components/_getting.scss */
+@media screen and (max-width: 767px) {
+  /* line 88, src/scss/_components/_getting.scss */
+  .ot-getting__block-head {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    height: auto;
+    min-height: 62px;
+    border-bottom: 0;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* line 102, src/scss/_components/_getting.scss */
 .ot-getting__block-head a {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1339,7 +1465,17 @@ body #fp-nav.right {
   padding-right: 15px;
 }
 
-/* line 77, src/scss/_components/_getting.scss */
+@media screen and (max-width: 767px) {
+  /* line 102, src/scss/_components/_getting.scss */
+  .ot-getting__block-head a {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 15px;
+    padding-bottom: 10px;
+  }
+}
+
+/* line 115, src/scss/_components/_getting.scss */
 .ot-getting__block-head a:after {
   content: '';
   display: none;
@@ -1351,48 +1487,73 @@ body #fp-nav.right {
   background-color: #f40830;
 }
 
-/* line 89, src/scss/_components/_getting.scss */
+@media screen and (max-width: 767px) {
+  /* line 115, src/scss/_components/_getting.scss */
+  .ot-getting__block-head a:after {
+    bottom: auto;
+    left: -1px;
+    height: 100%;
+    width: 3px;
+  }
+}
+
+/* line 133, src/scss/_components/_getting.scss */
 .ot-getting__block-head a.is-active:after {
   display: block;
 }
 
-/* line 93, src/scss/_components/_getting.scss */
+/* line 137, src/scss/_components/_getting.scss */
 .ot-getting__block-head a.is-active .ot-getting__block-circle {
   background-color: #f40830;
 }
 
-/* line 97, src/scss/_components/_getting.scss */
+/* line 141, src/scss/_components/_getting.scss */
 .ot-getting__block-head a.is-active p {
   color: #f40830;
 }
 
-/* line 104, src/scss/_components/_getting.scss */
+/* line 148, src/scss/_components/_getting.scss */
 .ot-getting__block-body {
   padding-top: 30px;
 }
 
-/* line 108, src/scss/_components/_getting.scss */
+/* line 152, src/scss/_components/_getting.scss */
 .ot-getting__block-content {
   display: none;
   padding-bottom: 20px;
 }
 
-/* line 112, src/scss/_components/_getting.scss */
+/* line 156, src/scss/_components/_getting.scss */
 .ot-getting__block-content.is-active {
   display: block;
 }
 
-/* line 117, src/scss/_components/_getting.scss */
+/* line 161, src/scss/_components/_getting.scss */
 .ot-getting__block-content p {
   padding-bottom: 20px;
   font-family: "SF Pro Text", sans-serif;
-  font-size: 18px;
   color: #000000;
   letter-spacing: 0;
   line-height: 1.55556;
+  font-size: 14px;
 }
 
-/* line 128, src/scss/_components/_getting.scss */
+@media screen and (min-width: 320px) {
+  /* line 161, src/scss/_components/_getting.scss */
+  .ot-getting__block-content p {
+    font-size: -webkit-calc(14px + 4 * (100vw - 320px) / 672);
+    font-size: calc(14px + 4 * (100vw - 320px) / 672);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* line 161, src/scss/_components/_getting.scss */
+  .ot-getting__block-content p {
+    font-size: 18px;
+  }
+}
+
+/* line 172, src/scss/_components/_getting.scss */
 .ot-getting__block-btn > div {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1405,19 +1566,19 @@ body #fp-nav.right {
   height: 40px;
 }
 
-/* line 133, src/scss/_components/_getting.scss */
+/* line 177, src/scss/_components/_getting.scss */
 .ot-getting__block-btn > div:nth-of-type(1) {
   width: 50px;
 }
 
-/* line 137, src/scss/_components/_getting.scss */
+/* line 181, src/scss/_components/_getting.scss */
 .ot-getting__block-btn > div:nth-of-type(2) {
   width: 100%;
   max-width: -webkit-calc(100% - 50px);
   max-width: calc(100% - 50px);
 }
 
-/* line 143, src/scss/_components/_getting.scss */
+/* line 187, src/scss/_components/_getting.scss */
 .ot-getting__block-btn p {
   font-weight: bold;
   font-size: 18px;
@@ -1425,7 +1586,14 @@ body #fp-nav.right {
   letter-spacing: 0;
 }
 
-/* line 151, src/scss/_components/_getting.scss */
+@media screen and (max-width: 767px) {
+  /* line 187, src/scss/_components/_getting.scss */
+  .ot-getting__block-btn p {
+    font-size: 16px;
+  }
+}
+
+/* line 198, src/scss/_components/_getting.scss */
 .ot-getting__block-circle {
   overflow: hidden;
   display: -webkit-box;

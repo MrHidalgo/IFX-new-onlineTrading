@@ -66,9 +66,7 @@
   }
 
   &__title {
-    //padding-bottom: 98px;
     font-weight: bold;
-    //font-size: 60px;
     color: #131324;
     letter-spacing: 0;
     line-height: line-height-convert(62,60);
@@ -80,7 +78,6 @@
   &__subtitle {
     padding-bottom: 20px;
     font-weight: bold;
-    //font-size: 44px;
     color: #131324;
     letter-spacing: 0;
     @include fluid(font-size, 320px, 1366px, 32px, 44px);
@@ -89,7 +86,6 @@
   &__info {
     padding-bottom: 40px;
     font-weight: 500;
-    //font-size: 32px;
     color: #F40830;
     letter-spacing: 0;
     line-height: line-height-convert(48,32);
@@ -98,7 +94,6 @@
 
   &__text {
     font-family: 'SF Pro Text', sans-serif;
-    //font-size: 18px;
     color: #131324;
     letter-spacing: 0;
     line-height: 28px;
