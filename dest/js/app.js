@@ -43,6 +43,20 @@ var initPreventBehavior = function initPreventBehavior() {
  * CALLBACK :: start
  * ============================================= */
 
+	var initGettingBlock = function initGettingBlock() {
+		$('.ot-getting__block-btn').on('click', function (ev) {
+			var _elem = $(ev.currentTarget),
+			    _elemID = _elem.data('btn-id'),
+			    _contentNode = $('.ot-getting__block-content[data-content="' + _elemID + '"]');
+
+			$('.ot-getting__block-btn').removeClass('is-active');
+			_elem.addClass('is-active');
+
+			$('.ot-getting__block-content').removeClass('is-active').hide();
+			_contentNode.fadeIn(300);
+		});
+	};
+
 	/*
  * CALLBACK :: end
  * ============================================= */
@@ -62,6 +76,7 @@ var initPreventBehavior = function initPreventBehavior() {
 
 		// callback
 		// ==========================================
+		initGettingBlock();
 	};
 	initNative();
 })();
