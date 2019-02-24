@@ -2057,8 +2057,38 @@ body #fp-nav.right {
 
 /* line 3, src/scss/_components/_servers.scss */
 .ot-servers {
-  padding-top: 158px;
-  padding-bottom: 100px;
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+
+@media screen and (min-width: 320px) {
+  /* line 3, src/scss/_components/_servers.scss */
+  .ot-servers {
+    padding-top: -webkit-calc(75px + 83 * (100vw - 320px) / 880);
+    padding-top: calc(75px + 83 * (100vw - 320px) / 880);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 3, src/scss/_components/_servers.scss */
+  .ot-servers {
+    padding-top: 158px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  /* line 3, src/scss/_components/_servers.scss */
+  .ot-servers {
+    padding-bottom: -webkit-calc(50px + 50 * (100vw - 320px) / 880);
+    padding-bottom: calc(50px + 50 * (100vw - 320px) / 880);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 3, src/scss/_components/_servers.scss */
+  .ot-servers {
+    padding-bottom: 100px;
+  }
 }
 
 /* line 7, src/scss/_components/_servers.scss */
@@ -2074,41 +2104,102 @@ body #fp-nav.right {
   display: flex;
 }
 
-/* line 14, src/scss/_components/_servers.scss */
+@media screen and (max-width: 575px) {
+  /* line 11, src/scss/_components/_servers.scss */
+  .ot-servers__wrapper {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+
+/* line 17, src/scss/_components/_servers.scss */
 .ot-servers__wrapper-left, .ot-servers__wrapper-right {
   width: 50%;
 }
 
-/* line 19, src/scss/_components/_servers.scss */
+@media screen and (max-width: 575px) {
+  /* line 17, src/scss/_components/_servers.scss */
+  .ot-servers__wrapper-left, .ot-servers__wrapper-right {
+    width: 100%;
+  }
+}
+
+/* line 25, src/scss/_components/_servers.scss */
 .ot-servers__wrapper-left {
   padding-right: 15px;
 }
 
-/* line 24, src/scss/_components/_servers.scss */
+/* line 30, src/scss/_components/_servers.scss */
 .ot-servers__title {
   padding-bottom: 50px;
   font-weight: bold;
-  font-size: 70px;
   color: #1B2234;
   letter-spacing: 0;
   line-height: 1;
+  font-size: 38px;
 }
 
-/* line 33, src/scss/_components/_servers.scss */
+@media screen and (min-width: 320px) {
+  /* line 30, src/scss/_components/_servers.scss */
+  .ot-servers__title {
+    font-size: -webkit-calc(38px + 32 * (100vw - 320px) / 1046);
+    font-size: calc(38px + 32 * (100vw - 320px) / 1046);
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 30, src/scss/_components/_servers.scss */
+  .ot-servers__title {
+    font-size: 70px;
+  }
+}
+
+/* line 39, src/scss/_components/_servers.scss */
 .ot-servers__text {
   font-family: 'SF Pro Text', sans-serif;
-  font-size: 18px;
   color: #131324;
   letter-spacing: 0;
   line-height: 1.55556;
+  font-size: 14px;
 }
 
-/* line 40, src/scss/_components/_servers.scss */
+@media screen and (min-width: 320px) {
+  /* line 39, src/scss/_components/_servers.scss */
+  .ot-servers__text {
+    font-size: -webkit-calc(14px + 4 * (100vw - 320px) / 672);
+    font-size: calc(14px + 4 * (100vw - 320px) / 672);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* line 39, src/scss/_components/_servers.scss */
+  .ot-servers__text {
+    font-size: 18px;
+  }
+}
+
+/* line 46, src/scss/_components/_servers.scss */
 .ot-servers__text--pb {
-  padding-bottom: 68px;
+  padding-bottom: 34px;
 }
 
-/* line 45, src/scss/_components/_servers.scss */
+@media screen and (min-width: 320px) {
+  /* line 46, src/scss/_components/_servers.scss */
+  .ot-servers__text--pb {
+    padding-bottom: -webkit-calc(34px + 34 * (100vw - 320px) / 672);
+    padding-bottom: calc(34px + 34 * (100vw - 320px) / 672);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* line 46, src/scss/_components/_servers.scss */
+  .ot-servers__text--pb {
+    padding-bottom: 68px;
+  }
+}
+
+/* line 51, src/scss/_components/_servers.scss */
 .ot-servers__block {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2129,14 +2220,44 @@ body #fp-nav.right {
   background-color: #F30830;
 }
 
-/* line 55, src/scss/_components/_servers.scss */
+@media screen and (max-width: 1365px) {
+  /* line 51, src/scss/_components/_servers.scss */
+  .ot-servers__block {
+    padding: 35px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 51, src/scss/_components/_servers.scss */
+  .ot-servers__block {
+    min-height: 0;
+    margin-bottom: 30px;
+  }
+}
+
+/* line 68, src/scss/_components/_servers.scss */
 .ot-servers__block p {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 40px;
   color: #FFFFFF;
   letter-spacing: 0;
   line-height: 1;
+  font-size: 28px;
+}
+
+@media screen and (min-width: 320px) {
+  /* line 68, src/scss/_components/_servers.scss */
+  .ot-servers__block p {
+    font-size: -webkit-calc(28px + 12 * (100vw - 320px) / 880);
+    font-size: calc(28px + 12 * (100vw - 320px) / 880);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 68, src/scss/_components/_servers.scss */
+  .ot-servers__block p {
+    font-size: 40px;
+  }
 }
 
 /*# sourceMappingURL=maps/app.css.map */
