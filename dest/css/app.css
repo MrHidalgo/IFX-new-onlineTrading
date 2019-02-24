@@ -1,0 +1,442 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Rajdhani:400,500,600,700");
+@font-face {
+  font-family: "SFUIText";
+  src: url("../fonts/SFUIText-Regular.woff2") format("woff2"), url("../fonts/SFUIText-Regular.woff") format("woff"), url("../fonts/SFUIText-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* line 3, src/scss/_shared/_common.scss */
+body #fp-nav.right {
+  right: 5px;
+}
+
+/* line 3, src/scss/_components/_main.scss */
+.ot-main {
+  position: relative;
+}
+
+/* line 6, src/scss/_components/_main.scss */
+.ot-main .c-grid {
+  max-width: 1412px;
+}
+
+/* line 10, src/scss/_components/_main.scss */
+.ot-main__wrapper {
+  position: relative;
+}
+
+/* line 13, src/scss/_components/_main.scss */
+.ot-main__wrapper-0 {
+  padding-top: 201px;
+}
+
+/* line 17, src/scss/_components/_main.scss */
+.ot-main__wrapper-2 {
+  padding-bottom: 120px;
+}
+
+/* line 23, src/scss/_components/_main.scss */
+.ot-main__row-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 94px;
+}
+
+/* line 27, src/scss/_components/_main.scss */
+.ot-main__row-0 .ot-main__col {
+  width: 50%;
+}
+
+/* line 30, src/scss/_components/_main.scss */
+.ot-main__row-0 .ot-main__col:nth-of-type(1) {
+  padding-right: 20px;
+}
+
+/* line 33, src/scss/_components/_main.scss */
+.ot-main__row-0 .ot-main__col:nth-of-type(2) {
+  padding-left: 20px;
+}
+
+/* line 40, src/scss/_components/_main.scss */
+.ot-main__bg {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* line 47, src/scss/_components/_main.scss */
+.ot-main__bg-0 {
+  height: -webkit-calc(100% + 340px);
+  height: calc(100% + 340px);
+  background-color: #efeff0;
+  background-image: url("../img/img-main-bg.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+/* line 55, src/scss/_components/_main.scss */
+.ot-main__bg-1, .ot-main__bg-2 {
+  background-color: #17171F;
+}
+
+/* line 60, src/scss/_components/_main.scss */
+.ot-main__bg-1 {
+  top: 340px;
+  height: -webkit-calc(100% - 340px);
+  height: calc(100% - 340px);
+}
+
+/* line 65, src/scss/_components/_main.scss */
+.ot-main__bg-2 {
+  height: 100%;
+}
+
+/* line 70, src/scss/_components/_main.scss */
+.ot-main__title {
+  padding-bottom: 105px;
+  font-weight: bold;
+  font-size: 120px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 1.28333;
+}
+
+/* line 79, src/scss/_components/_main.scss */
+.ot-main__desc {
+  font-weight: 500;
+  font-size: 32px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+/* line 87, src/scss/_components/_main.scss */
+.ot-main__text {
+  width: 100%;
+  max-width: 548px;
+  font-family: 'SF Pro Text', sans-serif;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 1.55556;
+}
+
+/* line 96, src/scss/_components/_main.scss */
+.ot-main__text--pb {
+  padding-bottom: 30px;
+}
+
+/* line 101, src/scss/_components/_main.scss */
+.ot-main__info {
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+  opacity: 0.7;
+  font-family: 'SF Pro Text', sans-serif;
+  font-size: 20px;
+  color: #000000;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 1.55556;
+}
+
+/* line 116, src/scss/_components/_main.scss */
+.ot-main__table {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* line 120, src/scss/_components/_main.scss */
+.ot-main__table-tr {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 126, src/scss/_components/_main.scss */
+.ot-main__table-tr--first, .ot-main__table-tr--last {
+  z-index: 2;
+  position: relative;
+}
+
+/* line 131, src/scss/_components/_main.scss */
+.ot-main__table-tr--first .ot-main__table-td, .ot-main__table-tr--last .ot-main__table-td {
+  min-height: 40px;
+}
+
+/* line 134, src/scss/_components/_main.scss */
+.ot-main__table-tr--first .ot-main__table-td-0, .ot-main__table-tr--last .ot-main__table-td-0 {
+  background-color: transparent;
+}
+
+/* line 142, src/scss/_components/_main.scss */
+.ot-main__table-tr--first1 .ot-main__table-td, .ot-main__table-tr--last1 .ot-main__table-td {
+  min-height: 80px;
+}
+
+/* line 149, src/scss/_components/_main.scss */
+.ot-main__table-tr--first .ot-main__table-td-1, .ot-main__table-tr--first .ot-main__table-td-2, .ot-main__table-tr--first .ot-main__table-td-3 {
+  -webkit-border-top-left-radius: 10px;
+          border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+          border-top-right-radius: 10px;
+}
+
+/* line 158, src/scss/_components/_main.scss */
+.ot-main__table-tr--first .ot-main__table-td-1 .ot-main__table-badge, .ot-main__table-tr--first .ot-main__table-td-3 .ot-main__table-badge {
+  background-color: #44454C;
+}
+
+/* line 164, src/scss/_components/_main.scss */
+.ot-main__table-tr--first .ot-main__table-td-2 .ot-main__table-badge {
+  background-color: #F40830;
+}
+
+/* line 174, src/scss/_components/_main.scss */
+.ot-main__table-tr--row:nth-of-type(odd) .ot-main__table-td-0, .ot-main__table-tr--row:nth-of-type(odd) .ot-main__table-td-2 {
+  background-color: #26272e;
+}
+
+/* line 178, src/scss/_components/_main.scss */
+.ot-main__table-tr--row:nth-of-type(odd) .ot-main__table-td-1, .ot-main__table-tr--row:nth-of-type(odd) .ot-main__table-td-3 {
+  background-color: #2b2c33;
+}
+
+/* line 187, src/scss/_components/_main.scss */
+.ot-main__table-tr--first1 .ot-main__table-td {
+  padding-top: 30px;
+}
+
+/* line 190, src/scss/_components/_main.scss */
+.ot-main__table-tr--first1 .ot-main__table-td-0 {
+  -webkit-border-top-left-radius: 30px;
+          border-top-left-radius: 30px;
+}
+
+/* line 197, src/scss/_components/_main.scss */
+.ot-main__table-tr--last1 .ot-main__table-td {
+  padding-bottom: 30px;
+}
+
+/* line 200, src/scss/_components/_main.scss */
+.ot-main__table-tr--last1 .ot-main__table-td-0 {
+  -webkit-border-bottom-left-radius: 30px;
+          border-bottom-left-radius: 30px;
+}
+
+/* line 208, src/scss/_components/_main.scss */
+.ot-main__table-tr--last .ot-main__table-td-1, .ot-main__table-tr--last .ot-main__table-td-2, .ot-main__table-tr--last .ot-main__table-td-3 {
+  -webkit-border-bottom-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+}
+
+/* line 218, src/scss/_components/_main.scss */
+.ot-main__table-td {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  width: 100%;
+  max-width: -webkit-calc(100% / 4);
+  max-width: calc(100% / 4);
+  min-height: 50px;
+  padding-left: 50px;
+  background-color: #2F3038;
+}
+
+/* line 228, src/scss/_components/_main.scss */
+.ot-main__table-td p,
+.ot-main__table-td span {
+  font-family: 'SF Pro Text', sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+
+/* line 237, src/scss/_components/_main.scss */
+.ot-main__table-badge {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 230px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-border-bottom-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+  text-transform: uppercase;
+  font-family: 'SF Pro Text', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+/* line 261, src/scss/_components/_main.scss */
+.ot-main__table-link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 230px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 10px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-color: #F30830;
+  font-family: "SF Pro Text", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+
+/* line 284, src/scss/_components/_main.scss */
+.ot-main__table-info {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  font-weight: 500;
+  font-size: 22px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 2.18182;
+}
+
+/* line 296, src/scss/_components/_main.scss */
+.ot-main__block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  max-width: -webkit-calc((100% - 30px) / 2);
+  max-width: calc((100% - 30px) / 2);
+  min-height: 625px;
+  padding: 50px 75px 75px;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* line 307, src/scss/_components/_main.scss */
+.ot-main__block-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 312, src/scss/_components/_main.scss */
+.ot-main__block-title {
+  padding-bottom: 45px;
+  font-family: 'SF Pro Text', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 1.3125;
+}
+
+/* line 322, src/scss/_components/_main.scss */
+.ot-main__block-desc {
+  padding-bottom: 42px;
+  font-family: 'SF Pro Text', sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 1.55556;
+}
+
+/* line 330, src/scss/_components/_main.scss */
+.ot-main__block-desc--pb {
+  padding-bottom: 10px;
+}
+
+/* line 335, src/scss/_components/_main.scss */
+.ot-main__block-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-width: 347px;
+  height: 80px;
+  padding: 5px 10px;
+  background-color: #F30830;
+  font-family: 'SF Pro Text', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+
+/*# sourceMappingURL=maps/app.css.map */
